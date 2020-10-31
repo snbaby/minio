@@ -1,0 +1,34 @@
+#!/bin/sh
+echo "--------开始启动--------------"
+nohup java -jar -Dserver.port=20001 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log202008001 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200801 minio-0.0.1-SNAPSHOT.jar > 20200801.log 2>&1 &
+nohup java -jar -Dserver.port=20002 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log202008002 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200802 minio-0.0.1-SNAPSHOT.jar > 20200802.log 2>&1 &
+nohup java -jar -Dserver.port=20003 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log202008003 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200803 minio-0.0.1-SNAPSHOT.jar > 20200803.log 2>&1 &
+nohup java -jar -Dserver.port=20004 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log202008004 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200804 minio-0.0.1-SNAPSHOT.jar > 20200804.log 2>&1 &
+nohup java -jar -Dserver.port=20005 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log202008005 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200805 minio-0.0.1-SNAPSHOT.jar > 20200805.log 2>&1 &
+nohup java -jar -Dserver.port=20006 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log202008006 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200806 minio-0.0.1-SNAPSHOT.jar > 20200806.log 2>&1 &
+nohup java -jar -Dserver.port=20007 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log202008007 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200807 minio-0.0.1-SNAPSHOT.jar > 20200807.log 2>&1 &
+nohup java -jar -Dserver.port=20008 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log202008008 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200808 minio-0.0.1-SNAPSHOT.jar > 20200808.log 2>&1 &
+nohup java -jar -Dserver.port=20009 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log202008009 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200809 minio-0.0.1-SNAPSHOT.jar > 20200809.log 2>&1 &
+nohup java -jar -Dserver.port=20010 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080010 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200810 minio-0.0.1-SNAPSHOT.jar > 20200810.log 2>&1 &
+nohup java -jar -Dserver.port=20011 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080011 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200811 minio-0.0.1-SNAPSHOT.jar > 20200811.log 2>&1 &
+nohup java -jar -Dserver.port=20012 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080012 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200812 minio-0.0.1-SNAPSHOT.jar > 20200812.log 2>&1 &
+nohup java -jar -Dserver.port=20013 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080013 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200813 minio-0.0.1-SNAPSHOT.jar > 20200813.log 2>&1 &
+nohup java -jar -Dserver.port=20014 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080014 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200814 minio-0.0.1-SNAPSHOT.jar > 20200814.log 2>&1 &
+nohup java -jar -Dserver.port=20015 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080015 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200815 minio-0.0.1-SNAPSHOT.jar > 20200815.log 2>&1 &
+nohup java -jar -Dserver.port=20016 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080016 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200816 minio-0.0.1-SNAPSHOT.jar > 20200816.log 2>&1 &
+nohup java -jar -Dserver.port=20017 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080017 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200817 minio-0.0.1-SNAPSHOT.jar > 20200817.log 2>&1 &
+nohup java -jar -Dserver.port=20018 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080018 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200818 minio-0.0.1-SNAPSHOT.jar > 20200818.log 2>&1 &
+nohup java -jar -Dserver.port=20019 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080019 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200819 minio-0.0.1-SNAPSHOT.jar > 20200819.log 2>&1 &
+nohup java -jar -Dserver.port=20020 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080020 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200820 minio-0.0.1-SNAPSHOT.jar > 20200820.log 2>&1 &
+nohup java -jar -Dserver.port=20021 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080021 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200821 minio-0.0.1-SNAPSHOT.jar > 20200821.log 2>&1 &
+nohup java -jar -Dserver.port=20022 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080022 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200822 minio-0.0.1-SNAPSHOT.jar > 20200822.log 2>&1 &
+nohup java -jar -Dserver.port=20023 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080023 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200823 minio-0.0.1-SNAPSHOT.jar > 20200823.log 2>&1 &
+nohup java -jar -Dserver.port=20024 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080024 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200824 minio-0.0.1-SNAPSHOT.jar > 20200824.log 2>&1 &
+nohup java -jar -Dserver.port=20025 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080025 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200825 minio-0.0.1-SNAPSHOT.jar > 20200825.log 2>&1 &
+nohup java -jar -Dserver.port=20026 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080026 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200826 minio-0.0.1-SNAPSHOT.jar > 20200826.log 2>&1 &
+nohup java -jar -Dserver.port=20027 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080027 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200827 minio-0.0.1-SNAPSHOT.jar > 20200827.log 2>&1 &
+nohup java -jar -Dserver.port=20028 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080028 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200828 minio-0.0.1-SNAPSHOT.jar > 20200828.log 2>&1 &
+nohup java -jar -Dserver.port=20029 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080029 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200829 minio-0.0.1-SNAPSHOT.jar > 20200829.log 2>&1 &
+nohup java -jar -Dserver.port=20030 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080030 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200830 minio-0.0.1-SNAPSHOT.jar > 20200830.log 2>&1 &
+nohup java -jar -Dserver.port=20031 -Dlogging.level.root=INFO -DESB_YEAR=2020 -Dlogging.file.path=log2020080031 -DESB_DIRECTORY=/home/ESB-SOURCE-DATA/20200831 minio-0.0.1-SNAPSHOT.jar > 20200831.log 2>&1 &
+echo "--------结束启动--------------"

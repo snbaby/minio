@@ -1,0 +1,30 @@
+logging:
+  level:
+    root: DEBUG
+  file:
+    path: log
+server:
+  port: 5888
+spring:
+  jackson:
+    generator:
+      write-numbers-as-strings: true
+  application:
+    name: jsonsql-server
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/jxyz?serverTimezone=UTC&autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
+    username: jxyz
+    password: jxyz@1234
+    hikari:
+      connection-timeout: 15000
+      auto-commit: true
+      max-lifetime: 600000
+      pool-name: DatebookHikariCP
+      minimum-idle: 5
+      connection-test-query: SELECT 1
+      idle-timeout: 30000
+      maximum-pool-size: 15
+      
+ESB_DIRECTORY: /test
+ESB_YEAR: 2020
